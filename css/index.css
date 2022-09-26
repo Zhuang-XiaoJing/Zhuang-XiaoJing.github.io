@@ -1390,7 +1390,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: url(https://m1.im5i.com/2022/09/21/UFik9a.jpg);
+  background: url(https://m1.im5i.com/2022/09/27/UFnPpo.jpg);
   background-attachment: local;
   background-position: center;
   background-size: cover;
@@ -2810,7 +2810,7 @@ h1.page-title + .tag-cloud-list {
   color: #000;
 }
 #aside-content #card-toc .toc-content .toc-link.active {
-  background: #00c4b6;
+  background: #000;
   color: #fff;
 }
 #aside-content :only-child > .card-widget {
@@ -4053,7 +4053,7 @@ h1.page-title + .tag-cloud-list {
   text-align: center;
 }
 #pagination .page-number.current {
-  background: #00c4b6;
+  background: #000;
   color: var(--white);
 }
 #pagination .pagination-info {
