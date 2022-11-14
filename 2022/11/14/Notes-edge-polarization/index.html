@@ -1,0 +1,363 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Notes edge polarization | Liuhan's NoteBook</title><meta name="keywords" content="Notes"><meta name="author" content="Liu Han"><meta name="copyright" content="Liu Han"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Edge dipole moments in 2D crystalsA confusion 对于一电中性，绝缘，且在bulk和boundary没有自由电荷的系统，当系统有boundary observables，以二维系统而言，它有两种可能的来源：(a) surface effect: 两边界极化在角处的汇聚；(b) bulk effect: 同时具有边界极化和角电荷 $Q^c$ 的聚集。第一种情">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Notes edge polarization">
+<meta property="og:url" content="http://example.com/2022/11/14/Notes-edge-polarization/index.html">
+<meta property="og:site_name" content="Liuhan's NoteBook">
+<meta property="og:description" content="Edge dipole moments in 2D crystalsA confusion 对于一电中性，绝缘，且在bulk和boundary没有自由电荷的系统，当系统有boundary observables，以二维系统而言，它有两种可能的来源：(a) surface effect: 两边界极化在角处的汇聚；(b) bulk effect: 同时具有边界极化和角电荷 $Q^c$ 的聚集。第一种情">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/cc/d3/39/caption.jpg?w=1200&amp;h=-1&amp;s=1">
+<meta property="article:published_time" content="2022-11-14T06:52:54.000Z">
+<meta property="article:modified_time" content="2022-11-14T08:48:13.903Z">
+<meta property="article:author" content="Liu Han">
+<meta property="article:tag" content="Notes">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/cc/d3/39/caption.jpg?w=1200&amp;h=-1&amp;s=1"><link rel="shortcut icon" href="/img/favicon1.png"><link rel="canonical" href="http://example.com/2022/11/14/Notes-edge-polarization/"><link rel="preconnect" href="//cdn.jsdelivr.net"><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://unpkg.com/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: 'days',
+  date_suffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://unpkg.com/flickr-justified-gallery@2/dist/fjGallery.min.js',
+      css: 'https://unpkg.com/flickr-justified-gallery@2/dist/fjGallery.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Notes edge polarization',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-11-14 16:48:13'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/modify.css"><link rel="stylesheet" href="APlayer.min.css"></head><body><div id="aplayer"></div><script src="https://cdn.jsdelivr.net/gh/radium-bit/res@master/live2d/autoload.js" async=""></script><script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js" async=""></script><meta name="generator" content="Hexo 6.3.0"><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">Loading...</div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+
+if (true) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://m1.im5i.com/2022/09/22/UFLK77.th.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">1</div></a></div><hr><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/cc/d3/39/caption.jpg?w=1200&amp;h=-1&amp;s=1')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Liuhan's NoteBook</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Notes edge polarization<a class="post-edit-link" href="null_posts/Notes-edge-polarization.md" title="Edited on" target="_blank"><i class="fas fa-pencil-alt"></i></a></h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2022-11-14T06:52:54.000Z" title="Created 2022-11-14 14:52:54">2022-11-14</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2022-11-14T08:48:13.903Z" title="Updated 2022-11-14 16:48:13">2022-11-14</time></span></div><div class="meta-secondline"></div></div></div></header><main class="layout" id="content-inner"><div id="post"><div class="top-img" style="background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/cc/d3/39/caption.jpg?w=1200&amp;h=-1&amp;s=1');"></div><article class="post-content" id="article-container"><h1 id="Edge-dipole-moments-in-2D-crystals"><a href="#Edge-dipole-moments-in-2D-crystals" class="headerlink" title="Edge dipole moments in 2D crystals"></a>Edge dipole moments in 2D crystals</h1><h2 id="A-confusion"><a href="#A-confusion" class="headerlink" title="A confusion"></a>A confusion</h2><p><img src="confusion.png" alt=""></p>
+<p>对于一电中性，绝缘，且在bulk和boundary没有自由电荷的系统，当系统有boundary observables，以二维系统而言，它有两种可能的来源：(a) surface effect: 两边界极化在角处的汇聚；(b) bulk effect: 同时具有边界极化和角电荷 $Q^c$ 的聚集。第一种情况如 (a) 图所示，这类表面偶极矩并非来自于 bulk moment ($q_{xy}=0$)，而是表面自身的效应。第二种情况如 (b) 图所示，此时电荷和极化的聚集现象由 bulk quadrupole moment 唯一产生。</p>
+<h2 id="Position-dependent-polarization"><a href="#Position-dependent-polarization" class="headerlink" title="Position-dependent polarization"></a>Position-dependent polarization</h2><p>考虑一个在 $x-y$ 方向有 $N_x\times N_y$ 个原胞的 2D insulator，当我们想得出 $x$ 方向的极化 $p_x$ 在实空间 $y$ 方向的分布 $p_x(R_y)$ 时，我们需要考虑一个 $x$ 方向PBC，$y$ 方向OBC的准一维超胞，也就是将开边界方向的位置指标 $R_y \in 1 … N_y$ 当作超胞的内部自由度，如下图所示：</p>
+<p><img src="lattice.png" alt=""></p>
+<p>此时超胞费米子产生湮灭算符变为：</p>
+<script type="math/tex; mode=display">
+c_{k,\alpha} \;
+\rightarrow \;
+c_{k_x,R_y,\alpha}</script><p>二次量子化哈密顿量 (second quantized Hamiltonian)：</p>
+<script type="math/tex; mode=display">
+H=\sum_{k_x} c^{\dagger}_{k_x,R_y,\alpha}[h_{k_x}]^{R_y,\alpha,R_y',\beta}
+c_{k_x,R_y',\beta}
+\tag{1}</script><p>其中 $\alpha,\beta \in 1 … N_{\text{orb}}$ (这里 $N_{\text{orb}}=4$)，$R_y,R_y’\in 1…N_y$. 由于 $k_x$ 是好量子数，我们可以将Bloch Hamiltonian作对角化：</p>
+<script type="math/tex; mode=display">
+[h_{k_x}]^{R_y,\alpha,R_y',\beta}=
+\sum_{n}[u_{k_x}^n]^{R_y,\alpha} \epsilon_{n,k_x}[u_{k_x}^{*n}]^{R_y',\beta}
+\tag{2}</script><p>其中 $n \in 1 … N_{\text{orb}}\times N_y$. 这里发生的事情是：(1)式中的产生湮灭算符等效于 Dirac ket&amp;bra，也就是田光善老师说的“裸态”，是一些个抽象的basis，只有选定了特定的表象，才能和<strong>有系数的</strong>向量mapping起来，而(2)式正是选定了 Bloch 表象，才能将 (1) 中的矩阵元 $[h_{k_x}]^{R_y,\alpha,R_y’,\beta}$ 具体的写出来 (抽象的产生湮灭算符向量化为一些系数，如 $[u_{k_x}^{n}]^{R_y,\alpha}$)。将 (2) 式代入 (1)式并对重复指标求和， second quantized Hamiltonian 变为：</p>
+<script type="math/tex; mode=display">
+H=\sum_{n,k_x}\gamma^{\dagger}_{n,k_x}\epsilon_{n,k_x}\gamma_{n,k_x},
+\tag{3}</script><p>其中准粒子算符为</p>
+<script type="math/tex; mode=display">
+\gamma_{n,k_x}=\sum_{R_y,\alpha}[u_{k_x}^{*n}]^{R_y,\alpha}c_{k_x,R_y,\alpha}.
+\tag{4}</script><p>以上所有系数 <script type="math/tex">[u_{k_x}^{*n}]^{R_y,\alpha}</script>  表示: 在波矢 <script type="math/tex">k_x</script> 处，第 $n$ 个能级 $\epsilon_{n,k_x}$ 对应的 Bloch 波函数的第 $f(R_y,\alpha)$ 个分量 (在我们的例子中 $f=4*(R_y-1)+\alpha$ )。</p>
+<p>Wilson line elements $[G_{k_x}]^{mn}$:</p>
+<script type="math/tex; mode=display">
+\sum_{R_y,\alpha}[u_{k_x+\delta k_x}^{*m}]^{R_y,\alpha}[u_{k_x}^{n}]^{R_y,\alpha}</script><p>相应的占据态为 $m,n \in 1…N_{\text{occ}}\times N_y$, $N_{\text{occ}}$ 为单胞的占据态个数，这里是2。有了以上的理论基础，我们就可以沿着 $x$ 方向计算 $y$-OBC 条带的Wilson loop，相应的Wilson matrix $[\mathcal{W}_{k_x+2\pi \leftarrow k_x}]^{mn}$ 是 $N_{\text{occ}}\times N_y$ 维的方阵，并且只有这一个 Wilson matrix (因为是1D 系统)，所以数值对角化后得到的 Wilson-loop eigenvalues 有 $N_{\text{occ}}\times N_y$ 个。</p>
+<p>相应的 Wilson-loop eigenstates 为 (hybrid) Wannier functions ：</p>
+<script type="math/tex; mode=display">
+\vert \Psi^{j}_{R_x} \rangle=\frac{1}{\sqrt{N_x}}\sum_{n=1}^{N_{occ}\times N_y} \;
+\sum_{k_x}\;[\nu^{j}_{k_x}]^{n}e^{-i k_x R_x}
+\gamma^{\dagger}_{n,k_x} \vert 0 \rangle
+\tag{5}</script><p>for $ j \in 1… N_{occ} \times N_y, \; R_x \in 1 … N_x $, and where $[\nu_{k_x}^{j}]^{n}$ is the $n$th component of the $j$th Wilson-loop eigenstate $\vert \nu_{k_x}^{j} \rangle $, … 这里的 hybrid 表示 localized along $y$ but are Bloch type along $x$, 即是一种 partially localized 的态。</p>
+<p>$[\nu_{k_x}^{j}]^{n}$ 是第 $j$ 个 Wilson-loop eigenstate： $\vert \nu_{k_x}^{j} \rangle $ 的系数，数值上来讲就是你对角化矩阵 $[\mathcal{W_{k_{x}+2\pi \leftarrow k_x}}]^{mn}$ ($m,n$ 跑遍占据态) 后得到的第 $j$ 个本征向量的分量。<strong>注意这里的下角标 $k_x$ 标记的是 Wilson-loop 的起点。</strong></p>
+<p>有分量了还不够“物理”，还要有基 (basis)，而 Wilson-loop 对应的是 Wannier 基，而我们手头上有 Bloch 基 $\gamma_{n,k_x}^{\dagger} \vert 0 \rangle $，作傅里叶变换即可：</p>
+<script type="math/tex; mode=display">
+\vert wan \rangle = \frac{1}{\sqrt{N_x}}\sum_{k_x}\gamma_{n,k_x}^{\dagger} \vert 0 \rangle \; e^{-ik_x R_x}</script><p>有了 (5) 式，我们就可以作它的模 $\langle \Psi_{R_x}^{j} \vert \Psi_{R_x}^{j} \rangle$ : </p>
+<script type="math/tex; mode=display">
+\begin{equation}
+\begin{split}
+\rho^{j,R_x}(R_y)\equiv \langle \Psi_{R_x}^{j} \vert \Psi_{R_x}^{j} \rangle &= \sum_{R_x',\alpha}\langle \Psi_{R_x}^{j} \vert \phi_{R_x'}^{R_y,\alpha} \rangle \langle \phi_{R_x'}^{R_y,\alpha} \vert 
+\Psi_{R_x}^{j} \rangle \\
+&= \frac{1}{N_x}\sum_{k_x,\alpha} |[u_{k_x}^{n}]^{R_y,\alpha}[\nu_{k_x}^{j}]^{n}|^{2}
+\end{split}
+\end{equation}
+\tag{6}</script><p>(6)式中也要对 $n$ 求和，求和遍历所有的占据态。注意到几率密度 $\rho$ 与 $R_x$ 无关，这也符合 $x$ 方向的平移不变性，因此 $\rho^{j,R_x}$ 简单记作 $\rho^{j}$.  通过考察 $\rho^{j}$ 的分布，我们可以确认第 $j$ 个 Wannier eigenstate 在 $y$ 方向的局域行为。这一过程与求解 tight-binding Hamiltonian 得到 Bloch 波函数，进而通过波函数分量的模平方得到电子的实空间分布的 usual way 有什么区别吗？个人觉得是没有本质区别的，因为是在两个表象下解同一个方程，或者说，(5)式本质上就是 Bloch 波函数的傅里叶变换，它的模方与 Bloch 的模方应该给出一致的结论<sup><a href="#fn_1" id="reffn_1">1</a></sup>。tight-binding 给出的是沿 $ k_x $ 方向的投影能带，能带的物理意义是本征能级，带隙中间态的波函数模平方反映出边缘态电子的几率分布；Wilson-loop 这一套将 $k_x$ 方向加和，消除了 $k_x$ 作为能级的标记，得出的是散点谱(Wilson-loop eigenstates)，散点谱的给出的不是本征能级，而是Wilson-loop eigenvalues，亦是 projected position operator 的 eigenvalues，所以也叫做 Wannier center <sup><a href="#fn_2" id="reffn_2">2</a></sup>.</p>
+<p>利用该几率密度可以给出 $x$ 方向极化在 $y$ 方向的分布：</p>
+<script type="math/tex; mode=display">
+p_{x}(R_y)=\sum_{j}\rho^j (R_y)\nu_{x}^{j}
+\tag{7}</script><p>$p_x(R_y)$ 叫做 tangential polarization, 通过加和一半的tangential polarization, 我们可以得到边界极化 (edge polarization)：</p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+p^{\text{edge},\;-y}&=\sum_{R_y=1}^{\frac{N_y}{2}}p_{x}(R_y),\\
+p^{\text{edge},\;y}&=\sum_{R_y=\frac{N_y}{2}+1}^{N_y}p_x(R_y).
+\end{aligned}\tag{8}</script><p>角电荷：</p>
+<script type="math/tex; mode=display">
+Q^{\text{corner}}=p^{\text{edge}\;x}+p^{\text{edge}\;y}</script><h2 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h2><p>对于文中的 Hamiltonian (5.10), 取胞内跃迁 $\gamma$ 很小, 并保持 Inversion symmetry 和 $x$ 与 $y$ 方向的镜面对称性。两个方向的超胞投影能带为：</p>
+<p><img src="projected band.png" alt=""></p>
+<p>可以看到 $k_y$ 方向周期性时，边缘态与体态是混合的。</p>
+<p>取一个很小的质量项 $\delta=10^{-4}$ 轻微打破了镜面，目的是使非平庸极化不量子化 (不准确等于 0.5)，从而打破 Wannier degeneracy。胞外跃迁各向异性:  $\lambda_x&gt;\lambda_y$。当取 $x$ 方向开边界 20 个元胞时，沿 $k_y$ 方向作占据态的 large Wilson-loop 并对角化，得到 20*4/2 个 Wannier eigenvalues (Wilson-loop eigenvalues) $\nu_y$, 即 Wannier 谱：</p>
+<p><img src="wannier values vy.png" alt=""></p>
+<p>需要注意的是，在上图中的gap存在极化为 $\pm0.4999$ (unambiguous sign for edge polarizations)，这是由于很小的质量项 $\delta$ 导致。如果该项取大一些，比如 $\delta=0.2$，则gap中的 Wannier value 会偏离0.5多一些，相应的边界极化的量子化程度也会低一些，这些都是由y方向的镜面对称导致的，具体见 Benalcazar 的PRB<sup><a href="#fn_3" id="reffn_3">3</a></sup>。另外，如果质量项为 0，则两个非平庸解都是 0.5，相应的 Wannier eigenstate 简并。</p>
+<p>利用 (6) 式，我们可以 check 第 $j$ 个 Wannier eigenvalues 的本征态沿开边界方向的几率密度 $\rho_{R_x}$：</p>
+<p><img src="Rx bulk.png" alt=""></p>
+<p>上图由左至右展示的是 $j=39,38,37,36$ 的 $\rho_{R_x}$. 可以看到 $\nu_y=0$ (topological trivial) 的Wannier eigenstate 主要分布在体里，这些态叫做 gapped bulk Wannier states. 对于 $\nu_y=0.5\;\text{mod}\;1$ (topological non-trivial) 的两个 Wannier eigenvalue 的 Wannier eigenstate ($j=1,40$) 是 edge localized 的：</p>
+<p><img src="Wannier eigenstate edge localized.png" alt=""></p>
+<p>可以看到高度局域在 $R_x=1$ ($j=40$)和 $R_x=20$ ($j=1$)处。根据 (7) -(8)式，我们发现正是这一对 Wannier values 的 Wannier states 导致了 $\pm \frac{1}{2}$ 的 edge polarizations：</p>
+<p><img src="edge polar Rx.png" alt=""></p>
+<p>如果保持严格的镜面对称性 ($\delta=0$) ，就会又一对严格出现在0.5的 Wannier value $\nu_y$, 也就是没有 unambiguous sign 的 in-gap Wannier values：</p>
+<p><img src="degenerate wan.png" alt=""></p>
+<p>相应的 Wannier states ：</p>
+<p><img src="degenerate wan eigenstates.png" alt=""></p>
+<p>这样的一对态无法分辨 $\pm \frac{1}{2}$ 的 edge polarization ：</p>
+<p><img src="ambiguous polar.png" alt=""></p>
+<p>对于 $y$ 方向开边界20个元胞， $x$ 方向周期性的准一维超胞，取 $\delta=10^{-4}$ 同样有 Wannier eigenvalues $\nu_x$:</p>
+<p><img src="wannier values vx.png" alt=""></p>
+<p>这里的非0质量项 $\delta$ 轻微打破镜面对称，使 Wannier eigenvalues 分为了$\pm 0.5$两支，从而有 unambiguous sign。这两支也使得 $p_x(R_y)=0$ 。挑出几个态看看 Wannier state 的分布：</p>
+<p><img src="wan eigstate.png" alt=""></p>
+<p>可以看到正负两支 Wannier band 的 Wannier state 基本上是对称分布的，从而导致边界极化几乎为0：</p>
+<p><img src="edge polar Ry.png" alt=""></p>
+<p>若 $\delta=0$，则得到 degenerate eigenvalues $\nu_x^{j}=\frac{1}{2}$ (这里的 $\frac{1}{2}$ 是由镜面对称性 $M_x$ 保证的)，如 Benalcazar 文章中所示：</p>
+<p><img src="2017prb.png" alt=""></p>
+<blockquote id="fn_1">
+<sup>1</sup>. Since the Fourier transform is really just a special case of a unitary transformation, we can view the Bloch and Wannier functions as providing two different basis sets describing the same manifold of states associated with the electron band in question. —— David. Vanderbilt Page, 113 Section 3.5<a href="#reffn_1" title="Jump back to footnote [1] in the text."> ↩</a>
+</blockquote>
+<blockquote id="fn_2">
+<sup>2</sup>. … At the time, Zak was mainly concerned with symmetry properties and the relation of the Berry phase to the “band center”, which we now identify with a Wannier center… —— David. Vanderbilt Page, 107 Section 3.4<a href="#reffn_2" title="Jump back to footnote [2] in the text."> ↩</a>
+</blockquote>
+<blockquote id="fn_3">
+<sup>3</sup>. <a target="_blank" rel="noopener" href="https://doi.org/10.1103/PhysRevB.96.245115">https://doi.org/10.1103/PhysRevB.96.245115</a><a href="#reffn_3" title="Jump back to footnote [3] in the text."> ↩</a>
+</blockquote>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="http://example.com">Liu Han</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="http://example.com/2022/11/14/Notes-edge-polarization/">http://example.com/2022/11/14/Notes-edge-polarization/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Notes/">Notes</a></div><div class="post_share"><div class="social-share" data-image="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/cc/d3/39/caption.jpg?w=1200&amp;h=-1&amp;s=1" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://unpkg.com/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://unpkg.com/social-share.js/dist/js/social-share.min.js" defer=""></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2022/09/30/%E6%9D%82%E8%AE%B0/"><img class="next-cover" src="https://www.designboom.com/cms/images/ridoz/nl01.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">杂记</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://m1.im5i.com/2022/09/22/UFLK77.th.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"></div><div class="author-info__name">Liu Han</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">1</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">Hello!</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Catalog</span><span class="toc-percentage"></span></div><div class="toc-content is-expand"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Edge-dipole-moments-in-2D-crystals"><span class="toc-number">1.</span> <span class="toc-text">Edge dipole moments in 2D crystals</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#A-confusion"><span class="toc-number">1.1.</span> <span class="toc-text">A confusion</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Position-dependent-polarization"><span class="toc-number">1.2.</span> <span class="toc-text">Position-dependent polarization</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Example"><span class="toc-number">1.3.</span> <span class="toc-text">Example</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/11/14/Notes-edge-polarization/" title="Notes edge polarization"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/cc/d3/39/caption.jpg?w=1200&amp;h=-1&amp;s=1" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Notes edge polarization"></a><div class="content"><a class="title" href="/2022/11/14/Notes-edge-polarization/" title="Notes edge polarization">Notes edge polarization</a><time datetime="2022-11-14T06:52:54.000Z" title="Created 2022-11-14 14:52:54">2022-11-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/09/30/%E6%9D%82%E8%AE%B0/" title="杂记"><img src="https://www.designboom.com/cms/images/ridoz/nl01.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="杂记"></a><div class="content"><a class="title" href="/2022/09/30/%E6%9D%82%E8%AE%B0/" title="杂记">杂记</a><time datetime="2022-09-30T07:08:51.000Z" title="Created 2022-09-30 15:08:51">2022-09-30</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/09/29/mma-skills-220929/" title="Mathematica杂技"><img src="https://m1.im5i.com/2022/09/30/UFqOVw.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Mathematica杂技"></a><div class="content"><a class="title" href="/2022/09/29/mma-skills-220929/" title="Mathematica杂技">Mathematica杂技</a><time datetime="2022-09-29T13:47:39.000Z" title="Created 2022-09-29 21:47:39">2022-09-29</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/09/26/title/" title="关于Matlab的parfor"><img src="https://m1.im5i.com/2022/10/01/UFVTYG.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="关于Matlab的parfor"></a><div class="content"><a class="title" href="/2022/09/26/title/" title="关于Matlab的parfor">关于Matlab的parfor</a><time datetime="2022-09-26T09:16:06.000Z" title="Created 2022-09-26 17:16:06">2022-09-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/09/21/my-first-blog/" title="我的第一个博客"><img src="https://m1.im5i.com/2022/09/21/UFik9a.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="我的第一个博客"></a><div class="content"><a class="title" href="/2022/09/21/my-first-blog/" title="我的第一个博客">我的第一个博客</a><time datetime="2022-09-21T07:14:50.000Z" title="Created 2022-09-21 15:14:50">2022-09-21</time></div></div></div></div></div></div></main><footer id="footer" style="background: transparent"><div id="footer-wrap"><div class="copyright">©2020 - 2022 By Liu Han</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back To Top"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://unpkg.com/@fancyapps/ui/dist/fancybox.umd.js"></script><div class="js-pjax"><script>if (!window.MathJax) {
+  window.MathJax = {
+    tex: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"]],
+      tags: 'ams'
+    },
+    chtml: {
+      scale: 1.2
+    },
+    options: {
+      renderActions: {
+        findScript: [10, doc => {
+          for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+            const display = !!node.type.match(/; *mode=display/)
+            const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display)
+            const text = document.createTextNode('')
+            node.parentNode.replaceChild(text, node)
+            math.start = {node: text, delim: '', n: 0}
+            math.end = {node: text, delim: '', n: 0}
+            doc.math.push(math)
+          }
+        }, ''],
+        insertScript: [200, () => {
+          document.querySelectorAll('mjx-container:not\([display]\)').forEach(node => {
+            const target = node.parentNode
+            if (target.nodeName.toLowerCase() === 'li') {
+              target.parentNode.classList.add('has-jax')
+            } else {
+              target.classList.add('has-jax')
+            }
+          });
+        }, '', false]
+      }
+    }
+  }
+  
+  const script = document.createElement('script')
+  script.src = 'https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js'
+  script.id = 'MathJax-script'
+  script.async = true
+  document.head.appendChild(script)
+} else {
+  MathJax.startup.document.state(0)
+  MathJax.texReset()
+  MathJax.typeset()
+}</script></div><script src="https://unpkg.com/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener scroll 
+  window.tocScrollFn && window.removeEventListener('scroll', window.tocScrollFn)
+  window.scrollCollect && window.removeEventListener('scroll', scrollCollect)
+
+  document.getElementById('rightside').style.cssText = "opacity: ''; transform: ''"
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+  typeof disqusjs === 'object' && disqusjs.destroy()
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', (e) => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script></div></body></html>
