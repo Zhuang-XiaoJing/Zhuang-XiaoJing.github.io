@@ -1,0 +1,66 @@
+- class_name: 站点推荐
+  class_desc: false
+  link_list:
+    - name: Guanjihuan
+      link: https://www.guanjihuan.com/
+      avatar: https://www.guanjihuan.com/wp-content/uploads/2021/03/1.jpg
+      descr: cond-mat theory
+      siteshot: https://m1.im5i.com/2022/09/24/UFgZ8S.th.png # 站点缩略图
+    - name: A.G.Grushin
+      link: https://grushingroup.cnrs.fr/
+      avatar: https://grushingroup.cnrs.fr/wp-content/uploads/2021/01/cropped-cropped-Untitled_Artwork-19.png
+      descr: cond-mat theory
+      siteshot: https://m1.im5i.com/2022/09/27/UFpTLp.th.png # 站点缩略图
+    - name: The Bernevig Group
+      link: https://www.bernevig.com/
+      avatar: https://images.squarespace-cdn.com/content/v1/604fd5dac6bac54b73d69a82/5eb68a52-a2bd-460e-a1a5-6271c1058412/favicon.ico?format=100w
+      descr: cond-mat theory
+      siteshot: https://images.squarespace-cdn.com/content/v1/604fd5dac6bac54b73d69a82/1615939970076-DT11YS1UDA4KMFEAE303/sunlight-landscape-waterfall-dark-sea-hill-633132-wallhere.com.jpg # 站点缩略图
+    - name: Taylor Hughes Group
+      link: https://publish.illinois.edu/hughest-research/
+      avatar: https://publish.illinois.edu/hughest-research/files/2018/08/cropped-AkiraLaserA-32x32.jpg
+      descr: cond-mat theory
+      siteshot: http://publish.illinois.edu/hughest-research/files/2018/08/hughes_taylor-300x285.jpg # 站点缩略图      
+    - name: Johan Christensen
+      link: http://phonometa.eu/
+      avatar: http://phonometa.eu/wp-content/uploads/2017/01/cropped-logoHead-32x32.png
+      descr: phonometa
+      siteshot: https://m1.im5i.com/2022/09/27/UFp2KA.md.jpg # 站点缩略图
+    - name: A.Akhmerov Group
+      link: https://quantumtinkerer.tudelft.nl/
+      avatar: https://kwant-project.org/kwant_icon.png
+      descr: kwant developers
+      siteshot: https://antonakhmerov.org/akhmerov_photo_fom.png # 站点缩略图
+    - name: Qing-Rui Wang  
+      link: https://qr-wang.github.io/teaching_2021_TQM.html
+      avatar: https://qr-wang.github.io/wqr.jpg
+      descr: course on 10-fold way
+      
+
+- class_name: Useful toolkits
+  class_desc: false
+  link_list:
+    #- name: Youtube
+    #  link: https://www.youtube.com/
+    #  avatar: https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png
+    #  descr: 视频网站
+    # - name: Weibo
+    #   link: https://www.weibo.com/
+    #   avatar: https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png
+    #   descr: 中国最大社交分享平台
+    # - name: Twitter
+    #   link: https://twitter.com/
+    #   avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
+    #   descr: 社交分享平台
+    - name: Library Genesis Mirrors
+      link: https://libgen.onl/library-genesis/
+      # descr: LIBGEN mirrors
+      siteshot: https://m1.im5i.com/2022/09/24/UFgMoT.th.png
+      avatar: https://libgen.onl/wp-content/uploads/2020/07/cropped-libgen-180x180.jpg
+
+    - name: The Kwant Project
+      link: https://kwant-project.org/
+      descr: Quantum transport simulations
+      siteshot: https://m1.im5i.com/2022/09/27/UFp7PS.md.png
+      avatar: https://kwant-project.org/kwant_icon.png
+      
