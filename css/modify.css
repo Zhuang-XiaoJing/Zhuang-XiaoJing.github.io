@@ -1,0 +1,47 @@
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>/* 文章页背景 */
+.layout_post>#post {
+    /* 以下代表透明度为0.7 可以自行修改*/
+    background: rgba(255,255,255,.9);
+}
+ 
+/* 所有页面背景 */
+#aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
+    /* 以下代表透明度为0.7 */
+    background: rgba(255,255,255,.9);
+}
+/*侧边卡片的透明度 */
+:root {
+  --card-bg: rgba(255, 255, 255, .9);
+}
+/* 页脚透明 */
+#footer {
+	/* 以下代表透明度为0.7 */
+	background: rgba(255, 255, 255, 0.0);
+}
+ 
+/* remove underscore of navi */
+#nav *::after{
+  background-color: transparent!important;
+}
+
+
+#nav a{
+  color: #f9f2f4;
+}
+
+
+#nav-right{
+	flex:1 1 auto;
+	justify-content: flex-end;
+	margin-left: auto;
+	display: flex;
+	flex-wrap:nowrap;
+  }
+#page-header.not-top-img #nav {
+  background: rgba(255,255,255,0.0);
+  -webkit-box-shadow: 0 5px 6px -5px rgba(133,133,133,0.0);
+  box-shadow: 0 5px 6px -5px rgba(133,133,133,0.0);
+}
+#page-header.nav-fixed #nav #toggle-menu:hover {
+  color: #ca18d2;
+}
